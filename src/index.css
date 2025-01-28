@@ -37,3 +37,17 @@
   color: dimgrey;
   font-weight: 600;
 }
+
+/*-----------------
+    MAIN
+------------------*/
+main{
+  background-color: black;
+}
+.content{
+   padding: 60px 0;
+}
+
+.title{
+  color: white;
+}
