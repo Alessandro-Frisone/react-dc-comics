@@ -51,3 +51,28 @@ main{
 .title{
   color: white;
 }
+
+/*-----------------
+    FOOTER
+------------------*/
+footer{
+  background-color: #0282f9;
+}
+.container-block{
+  padding: 35px 0;
+  display: flex;
+  gap: 35px;
+}
+.block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block a{
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+.block img{
+  width: 45px;
+}
