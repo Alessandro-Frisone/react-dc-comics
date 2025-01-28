@@ -125,6 +125,23 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <div className="last-footer">
+        <div className="container-last-footer">
+            <div className="left-footer">
+                <button className="sign-up">SIGN-UP NOW!</button>
+            </div>
+            <div className="right-footer">
+                <h3>FOLLOW US</h3>
+                <div className="img-last-footer">
+                    <img src="./img/footer-facebook.png" alt="" />
+                    <img src="./img/footer-twitter.png" alt="" />
+                    <img src="./img/footer-youtube.png" alt="" />
+                    <img src="./img/footer-pinterest.png" alt="" />
+                    <img src="./img/footer-periscope.png" alt="" />
+                </div>
+            </div>
+        </div>
+      </div>
     </footer>
   );
 }
