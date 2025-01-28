@@ -31,18 +31,31 @@
 }
 .nav-header li {
   list-style: none;
+  position: relative;
 }
 .nav-header a {
   text-decoration: none;
   color: dimgrey;
   font-weight: 600;
 }
-
+.fregnetto{
+  background-color: #0282f9;
+  height: 7px;
+  width: 100%;
+  position: absolute;
+  top: 54px;
+  left: 0;
+}
+#comics{
+  color: #0282f9;
+}
 /*-----------------
     MAIN
 ------------------*/
 main {
   background-color: black;
+  position: sticky;
+  z-index: 10;
 }
 .content {
   padding: 60px 0;
@@ -136,7 +149,7 @@ footer {
   color: grey;
 }
 .img-footer-container img{
-  width: 40%;
+  width: 100%;
 }
 .last-footer{
   background-color: #303030;

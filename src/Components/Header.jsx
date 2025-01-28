@@ -8,7 +8,8 @@ export default function Header(){
                     <a href="#">CHARACTERS</a>
                 </li>
                 <li>
-                    <a href="#">COMICS</a>
+                    <a id="comics" href="#">COMICS</a>
+                    <hr className="fregnetto"></hr>
                 </li>
                 <li>
                     <a href="#">MOVIES</a>
