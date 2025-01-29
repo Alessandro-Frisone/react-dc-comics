@@ -26,8 +26,8 @@
   color: #0282f9;
   transform: scale(1.25);
 }
-.container-block .block a:hover{
-  transform: scale(1.1);
+.container-block .block:hover{
+  transform: scale(1.2);
 }
 .first-ul a:hover{
   color: white;
