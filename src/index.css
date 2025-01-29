@@ -20,14 +20,41 @@
 }
 
 /*-----------------
+    HOVER
+------------------*/
+.nav-header a:hover{
+  color: #0282f9;
+  transform: scale(1.25);
+}
+.container-block .block a:hover{
+  transform: scale(1.1);
+}
+.first-ul a:hover{
+  color: white;
+  transform: scale(1.1);
+}
+.second-ul a:hover{
+  color: white;
+  transform: scale(1.1);
+}
+.third-ul a:hover{                           
+  color: white;
+  transform: scale(1.1);
+}
+.sign-up:hover{
+   cursor: pointer;
+   transform: scale(1.15)
+}
+/*-----------------
     HEADER
 ------------------*/
+
 .logo-img {
   width: 80px;
 }
 .nav-header ul {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 .nav-header li {
   list-style: none;
@@ -37,6 +64,7 @@
   text-decoration: none;
   color: dimgrey;
   font-weight: 600;
+  display: inline-block;
 }
 .fregnetto{
   background-color: #0282f9;
@@ -49,9 +77,11 @@
 #comics{
   color: #0282f9;
 }
+
 /*-----------------
     MAIN
 ------------------*/
+
 main {
   background-color: black;
   position: sticky;
@@ -68,6 +98,7 @@ main {
 /*-----------------
     FOOTER
 ------------------*/
+
 footer {
   background-color: #0282f9;
 }
@@ -80,6 +111,9 @@ footer {
   padding: 35px 0;
   display: flex;
   gap: 35px;
+}
+.container-block .block a{
+  display: inline-block;
 }
 .block {
   display: flex;
@@ -94,10 +128,16 @@ footer {
 .block img {
   width: 45px;
 }
+
+/*-----------------
+    MAIN FOOTER
+------------------*/
+
 .container-main-footer {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;
 }
+/* FIRST UL */
 .first-ul {
   padding: 40px 0;
   margin-right: 35px;
@@ -113,7 +153,9 @@ footer {
 .first-ul a {
   text-decoration: none;
   color: grey;
+  display: inline-block;
 }
+/* SECOND UL */
 .second-title {
   margin-top: 12px;
 }
@@ -132,9 +174,12 @@ footer {
 .second-ul a {
   text-decoration: none;
   color: grey;
+  display: inline-block;
 }
+/* THIRDA UL */
 .third-ul {
   padding: 40px 0;
+  
 }
 .third-ul h3 {
   color: white;
@@ -147,10 +192,16 @@ footer {
 .third-ul a {
   text-decoration: none;
   color: grey;
+  display: inline-block;
 }
 .img-footer-container img{
   width: 100%;
 }
+
+/*-----------------
+   LAST FOOTER
+------------------*/
+
 .last-footer{
   background-color: #303030;
   padding: 25px 0;
