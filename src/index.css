@@ -94,6 +94,10 @@
   cursor: pointer;
    transform: scale(1.15)
 }
+.col:hover{
+  cursor: pointer;
+  transform: scale(1.18)
+}
 /*-----------------
     HEADER
 ------------------*/
@@ -152,7 +156,7 @@ main {
 }
 .products .col{
   width: calc(100% / 6);
-  margin-bottom: 30px;
+  margin-bottom: 65px;
 }
 .products .product-card{
   height: 100%;
@@ -163,6 +167,7 @@ main {
 ------------------*/
 .col p{
   color: white;
+  text-transform: uppercase;
 }
 .product-card{
   padding: 10px 22px 0 0;
