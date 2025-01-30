@@ -14,9 +14,9 @@ export default function ProductList() {
             );
           })}
         </div>
-        <div className="btn-container">
-          <button className="btn-load">LOAD MORE</button>
-        </div>
+      </div>
+      <div className="btn-container">
+        <button className="btn-load">LOAD MORE</button>
       </div>
     </section>
   );

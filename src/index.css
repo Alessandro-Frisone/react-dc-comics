@@ -22,17 +22,6 @@
 /*-----------------
     BUTTONS
 ------------------*/
-.btn-load{
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #0282f9;
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-  border: 2px solid #0282f9;
-}
 .sign-up {
   display: inline-block;
   padding: 10px 20px;
@@ -43,6 +32,22 @@
   font-weight: bold;
   border-radius: 5px;
   border: 2px solid #0282f9;
+}
+.btn-load{
+  display: inline-block;
+  padding: 10px 60px;
+  background-color: #0282f9;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 2px;
+  border: 2px solid #0282f9;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 /*-----------------
@@ -94,7 +99,7 @@
 ------------------*/
 
 main {
-  background-color: black;
+  background-color: #1c1c1c;
   position: sticky;
   z-index: 10;
 }
@@ -120,7 +125,6 @@ main {
 .products .product-card{
   height: 100%;
 }
-
 
 /*-----------------
     PRODUCTS CARD
