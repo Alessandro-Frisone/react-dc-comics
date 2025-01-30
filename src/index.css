@@ -89,6 +89,10 @@
   cursor: pointer;
    transform: scale(1.15)
 }
+.btn-series:hover{
+  cursor: pointer;
+   transform: scale(1.15)
+}
 /*-----------------
     HEADER
 ------------------*/
