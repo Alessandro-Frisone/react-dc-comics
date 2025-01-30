@@ -5,6 +5,7 @@ export default function ProductList() {
   return (
     <section className="products">
       <div className="container">
+      <button className="btn-series">CURRENT SEIRES</button>
         <div className="row">
           {comics.map((elm) => {
             return (
