@@ -78,6 +78,10 @@
    cursor: pointer;
    transform: scale(1.15)
 }
+.btn-load:hover{
+  cursor: pointer;
+   transform: scale(1.15)
+}
 /*-----------------
     HEADER
 ------------------*/

@@ -22,9 +22,7 @@ export default function Header() {
           </nav>
         </div>
       </div>
-      <div className="hero-container">
         <div className="hero"></div>
-      </div>
     </header>
   );
 }
