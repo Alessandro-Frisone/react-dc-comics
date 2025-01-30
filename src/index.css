@@ -57,7 +57,10 @@
   font-weight: 600;
   display: inline-block;
 }
-
+.hero{
+  background-image: url("/img/jumbotron.jpg");
+  height: 45vh;
+}
 
 
 /*-----------------
@@ -72,9 +75,31 @@ main {
 .content {
   padding: 60px 0;
 }
-
 .title {
   color: white;
+}
+
+/*-----------------
+    PRODUCT
+------------------*/
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.col p{
+  color: white;
+}
+.product-card{
+  padding: 6px;
+}
+.product-card img{
+  max-width: 100%;
+}
+.products .col{
+  width: calc(100% / 6);
+  margin-bottom: 30px;
 }
 
 /*-----------------
@@ -140,6 +165,11 @@ footer {
   text-decoration: none;
   color: grey;
   display: inline-block;
+}
+.big-logo{
+  position: relative;
+  bottom: 75px;
+  left: 20px;
 }
 
 

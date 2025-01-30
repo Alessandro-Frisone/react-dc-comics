@@ -46,7 +46,7 @@ export default function Footer() {
               </div>
             );
           })}
-          <img src="./img/dc-logo-bg.png" alt=""/>
+          <img src="./img/dc-logo-bg.png" alt="" className="big-logo"/>
         </div>
       </div>
       
