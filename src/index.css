@@ -107,7 +107,7 @@
 }
 .nav-header ul {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 .nav-header li {
   list-style: none;
