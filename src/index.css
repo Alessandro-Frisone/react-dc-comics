@@ -20,6 +20,32 @@
 }
 
 /*-----------------
+    BUTTONS
+------------------*/
+.btn-load{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0282f9;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #0282f9;
+}
+.sign-up {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #303030;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #0282f9;
+}
+
+/*-----------------
     HOVER
 ------------------*/
 .nav-header a:hover{
@@ -94,6 +120,7 @@ main {
 .products .product-card{
   height: 100%;
 }
+
 
 /*-----------------
     PRODUCTS CARD
@@ -194,17 +221,6 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-}
-.sign-up {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #303030;
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-  border: 2px solid #0282f9;
 }
 .right-footer h3{
   color: #0282f9;
