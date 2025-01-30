@@ -15,6 +15,10 @@
   padding: 12px;
   margin: 0 auto;
 }
+.container-main {
+  width: 60%;
+  margin: 0 auto;
+}
 
 /*-----------------
     BUTTONS
@@ -67,6 +71,9 @@
   color: #0282f9;
   transform: scale(1.25);
 }
+.nav-header li:hover{
+  border-bottom: 5px solid #0282f9;
+}
 .container-block .block:hover{
   transform: scale(1.2);
 }
@@ -95,6 +102,9 @@
 }
 .nav-header li {
   list-style: none;
+  display: flex;
+  align-items: center;
+  min-height: 130px;
 }
 .nav-header a {
   text-decoration: none;
@@ -169,6 +179,7 @@ footer {
   display: flex;
   width: 60%;
   margin: 0 auto;
+  height: 35vh;
 }
 .container-block {
   padding: 35px 0;
@@ -203,6 +214,7 @@ footer {
 .container-main-footer {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;
+  height: 45vh;
 }
 /* FIRST UL */
 .link-section {
@@ -224,8 +236,9 @@ footer {
 }
 .big-logo{
   position: relative;
-  bottom: 75px;
+  bottom: 55px;
   left: 20px;
+  height: 60vh;
 }
 
 
@@ -236,6 +249,8 @@ footer {
 .last-footer{
   background-color: #303030;
   padding: 25px 0;
+  position: relative;
+  z-index: 10;
 }
 .container-last-footer{
   width: 60%;
