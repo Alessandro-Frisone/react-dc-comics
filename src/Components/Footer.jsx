@@ -58,11 +58,11 @@ export default function Footer() {
           <div className="right-footer">
             <h3>FOLLOW US</h3>
             <div className="img-last-footer">
-              <img src="./img/footer-facebook.png" alt="" />
-              <img src="./img/footer-twitter.png" alt="" />
-              <img src="./img/footer-youtube.png" alt="" />
-              <img src="./img/footer-pinterest.png" alt="" />
-              <img src="./img/footer-periscope.png" alt="" />
+              <img src="./img/footer-facebook.png" alt="" className="social"/>
+              <img src="./img/footer-twitter.png" alt="" className="social"/>
+              <img src="./img/footer-youtube.png" alt="" className="social"/>
+              <img src="./img/footer-pinterest.png" alt="" className="social"/>
+              <img src="./img/footer-periscope.png" alt="" className="social"/>
             </div>
           </div>
         </div>

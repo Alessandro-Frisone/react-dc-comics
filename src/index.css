@@ -98,6 +98,10 @@
   cursor: pointer;
   transform: scale(1.18)
 }
+.social:hover{
+  cursor: pointer;
+   transform: scale(1.4)
+}
 /*-----------------
     HEADER
 ------------------*/
@@ -275,8 +279,8 @@ footer {
 .right-footer{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 .img-last-footer img{
-  margin-right: 10px;
+  margin-right: 15px;
 }
