@@ -229,7 +229,7 @@ footer {
 /* FIRST UL */
 .link-section {
   padding: 40px 0;
-  margin-right: 35px;
+  margin-right: 14px;
 }
 .link-section h3 {
   color: white;
@@ -237,7 +237,7 @@ footer {
 }
 .link-section ul {
   list-style: none;
-  line-height: 1.4;
+  line-height: 1.7;
 }
 .link-section a {
   text-decoration: none;
