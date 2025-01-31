@@ -127,7 +127,7 @@
 }
 .hero{
   background-image: url("/img/jumbotron.jpg");
-  height: 45vh;
+  height: 48vh;
 }
 .nav-container{
   display: flex;
